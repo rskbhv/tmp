@@ -1,0 +1,9 @@
+<div [ngClass]="unit">
+  {{info}}
+  <h2 style.color="blue">Data Will be Filled Here</h2>
+  <button (click)="chanageColor()">chanageColor</button>
+    <ul><li *ngFor="let n of items">{{n}}</li></ul>
+
+    <input type="text" [(ngModel)]="current"/>
+    <button (click)="addItem()">Add {{info}}</button>
+</div>
